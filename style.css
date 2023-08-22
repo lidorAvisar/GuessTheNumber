@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image:url(https://raw.githubusercontent.com/thiagodnf/guess-the-number/master/images/logo.png?token=AAG9XwrL-t72tifQ-eA47lewNBqqV9Nwks5cDnuJwA%3D%3D);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+h1{
+    font-family: 'Luckiest Guy', cursive;
+    word-spacing: 10px;
+}
+.game h1{
+    font-family:fantasy;
+}
+.game button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

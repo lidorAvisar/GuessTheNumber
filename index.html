@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="text-center mt-5 text-capitalize text-success">Guess the number!</h1>
+    <div class="text-center mt-4"><h1 class="text-success">the random number is:<span class="answer"> no number</span></h1></div>
+    <div class="game d-flex justify-content-evenly mt-5 pt-5 text-center">
+        <div class="left">
+            <h1 class="text-primary">Player one</h1>
+            <input type="number" class="inputOne p-2 border border-dark rounded-3 mt-3" name="" placeholder="GUESS NUMBER . . . " id="">
+            <h1 class="mt-4 text-success">RIGHT ANSWER: <span class="playerOneRight">0</span></h1>
+            <h1 class="text-danger">WRONG ANSWER: <span class="playerOneWorng">0</span> </h1>
+        </div>
+        <div class="right">
+            <h1 class="text-primary">Player two</h1>
+            <input type="number" class="inputTwo p-2 rounded-3 mt-3 border border-dark" name="" placeholder="GUESS NUMBER . . . " id="">
+            <h1 class="mt-4 text-success">RIGHT ANSWER: <span class="playerTwoRight">0</span></h1>
+            <h1 class="text-danger">WRONG ANSWER: <span class="playerTwoWorng">0</span> </h1>
+        </div>
+    </div>
+    <div class="butuun text-center mt-5">
+        <button
+            class="buttun-1 bg-primary my-2 border border-primary btn-outline-secondary rounded-3 text-white fw-medium fs-3 px-5">GUESS</button><br>
+        <button class="buttun-2 bg-danger mt-2 border border-danger rounded-3 text-white fw-medium fs-3 px-5">CLEAR</button>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
